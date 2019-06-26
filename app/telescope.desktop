@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Telescope
+Exec=telescope/telescope %u
+Icon=telescope/telescope.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
