@@ -6,11 +6,11 @@ Page {
     header: PageHeader {
         id: header
 
-        title: i18n.tr('Menu')
+        title: i18n.tr("Menu")
     }     
 
      Label {
         anchors.centerIn: parent
-        text: i18n.tr('Menu')
+        text: i18n.tr("Menu")
     } 
 }

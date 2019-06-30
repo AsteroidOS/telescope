@@ -7,6 +7,6 @@ Page {
     header: PageHeader {
         id: header
 
-        title: i18n.tr('Info')
+        title: i18n.tr("Info")
     }      
 }

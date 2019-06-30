@@ -10,7 +10,7 @@ Page {
     header: PageHeader {
         id: header
 
-        title: i18n.tr('Telescope')
+        title: "Telescope"
     } 
 
     ActivityIndicator {

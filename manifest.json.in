@@ -5,11 +5,11 @@
     "title": "Telescope",
     "hooks": {
         "telescope": {
-            "apparmor": "telescope/telescope.apparmor",
-            "desktop":  "telescope/telescope.desktop"
+            "apparmor": "telescope.apparmor",
+            "desktop":  "telescope.desktop"
         }
     },
-    "version": "0.1",
+    "version": "0.0.1",
     "maintainer": "Florian Blasius <flovanpt@posteo.de>",
     "framework" : "ubuntu-sdk-16.04"
 }

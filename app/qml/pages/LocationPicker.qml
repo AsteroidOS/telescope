@@ -7,6 +7,6 @@ Page {
     header: PageHeader {
         id: header
 
-        title: i18n.tr('LocationPicker')
+        title: i18n.tr("LocationPicker")
     }      
 }
