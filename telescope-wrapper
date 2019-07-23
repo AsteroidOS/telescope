@@ -1,0 +1,6 @@
+#!/bin/bash
+#export QML2_IMPORT_PATH=`pwd`/usr/lib/arm-linux-gnueabihf/qt5/qml/ #phone
+export QML2_IMPORT_PATH=`pwd`/usr/lib/x86_64-linux-gnu/qt5/qml #desktop
+env
+find .
+telescope $@
