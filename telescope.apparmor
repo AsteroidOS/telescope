@@ -1,0 +1,12 @@
+{
+    "policy_groups": [
+        "networking",
+        "webview",
+        "audio",
+        "keep-display-on",
+        "content_exchange",
+        "content_exchange_source"
+    ],
+    "template": "unconfined",
+    "policy_version": 16.04
+}
