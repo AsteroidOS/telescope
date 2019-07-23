@@ -21,3 +21,10 @@ clickable
 ```
 
 See [clickable documentation](http://clickable.bhdouglass.com/en/latest/) for details.
+
+
+## Contributors
+
+- Florent Revest (FlorentRevest)
+- Florian Blasius (FloVanGH)
+- Stefan Weng (StefWe)
