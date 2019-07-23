@@ -1,0 +1,8 @@
+# build dir
+/build/
+
+# clickable dir
+/.clickable/
+
+# kdevelop
+*.kdev4
