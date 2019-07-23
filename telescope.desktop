@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Telescope
-Exec=telescope %u
+Exec=telescope-wrapper
 Icon=assets/icon.svg
 Terminal=false
 Type=Application

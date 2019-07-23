@@ -32,7 +32,8 @@ message($$assets_files.files)
 INSTALLS+=assets_files
 
 OTHER_FILES += telescope.apparmor \
-               telescope.desktop
+               telescope.desktop \
+               telescope-wrapper
 
 #specify where the config files are installed to
 config_files.path = /
