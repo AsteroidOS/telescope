@@ -7,9 +7,13 @@
         "telescope": {
             "apparmor": "telescope.apparmor",
             "desktop":  "telescope.desktop"
+        },
+        "asteroidsyncserviced": {
+            "apparmor": "asteroidsyncserviced.apparmor"
         }
+
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "maintainer": "Stefan Weng <stefwe@mailbox.org>",
     "framework" : "ubuntu-sdk-16.04"
 }

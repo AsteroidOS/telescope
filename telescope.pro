@@ -31,7 +31,8 @@ assets_files.files += $${ASSETS_FILES}
 message($$assets_files.files)
 INSTALLS+=assets_files
 
-OTHER_FILES += telescope.apparmor \
+OTHER_FILES += asteroidsyncserviced.apparmor \
+               telescope.apparmor \
                telescope.desktop \
                telescope-wrapper
 
