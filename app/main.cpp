@@ -2,17 +2,10 @@
 #include <QQmlApplicationEngine>
 #include <QQuickView>
 #include <QQmlContext>
-//#include "servicecontrol.h"
-//#include "watch.h"
-//#include "watches.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-
-    //qmlRegisterUncreatableType<Watch>("Telescope", 1, 0, "Watch", "Get them from the model");
-    //qmlRegisterType<Watches>("Telescope", 1, 0, "Watches");
-    //qmlRegisterType<ServiceControl>("Telescope", 1, 0, "ServiceController");
 
     QQuickView view;
     QObject::connect(view.engine(), &QQmlEngine::quit, &app, &QGuiApplication::quit);
