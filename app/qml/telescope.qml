@@ -4,9 +4,9 @@ import org.asteroid.syncservice 1.0
 
 MainView {
 
-    //property alias curWatch: watches.currentWatch
-    //property alias curWatchConnected: watches.currentWatchConnected
-    //property var sysProfiles: [ ]
+    property alias curWatch: watches.currentWatch
+    property alias curWatchConnected: watches.currentWatchConnected
+    property var sysProfiles: [ ]
 
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "telescope.asteroidos"
@@ -15,14 +15,9 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
 
-/*    ServiceController {
+    ServiceController {
         id: serviceController
-        serviceName: "telescoped"
         Component.onCompleted: {
-            if (!serviceController.serviceFileInstalled) {
-                print("Service file not installed. Installing now.")
-                serviceController.installServiceFile();
-            }
             if (!serviceController.serviceRunning) {
                 print("Service not running. Starting now.")
                 serviceController.startService();
@@ -76,7 +71,7 @@ MainView {
 
     PageStack {
         id: pageStack
-    }*/
+    }
 }
 
 
