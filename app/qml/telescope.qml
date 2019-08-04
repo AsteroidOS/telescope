@@ -17,7 +17,12 @@ MainView {
 
     ServiceController {
         id: serviceController
+        serviceName: "asteroidsyncserviced"
         Component.onCompleted: {
+            if (!serviceController.serviceFileInstalled) {
+                print("Service file not installed. Installing now.")
+                serviceController.installServiceFile();
+            }
             if (!serviceController.serviceRunning) {
                 print("Service not running. Starting now.")
                 serviceController.startService();
