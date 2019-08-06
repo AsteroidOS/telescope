@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     QQuickView view;
     QObject::connect(view.engine(), &QQmlEngine::quit, &app, &QGuiApplication::quit);
 
+    view.rootContext()->setContextProperty("applicationDirPath", QGuiApplication::applicationDirPath());
     view.setSource(QUrl(QStringLiteral("qrc:///qml/telescope.qml")));
     view.setResizeMode(QQuickView::SizeRootObjectToView);
     view.show();

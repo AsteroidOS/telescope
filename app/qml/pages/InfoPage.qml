@@ -8,5 +8,71 @@ Page {
         id: header
 
         title: i18n.tr("Info")
-    }      
+        
+        leadingActionBar.actions: [
+            Action {
+                iconName: "back"
+                text: i18n.tr('Back')
+                onTriggered: {
+                    pageStack.pop()
+                }
+            }
+        ]
+
+        StyleHints {
+            foregroundColor: "#FFF"
+            backgroundColor: UbuntuColors.orange
+            dividerColor: "#85D8CE"
+        }
+    }
+    
+    Column {
+        id: aboutCloumn
+        spacing: units.gu(2)
+        anchors.topMargin: units.gu(2)
+        anchors.top: header.bottom
+        width:parent.width
+
+        UbuntuShape {
+            width: units.gu(15); height: units.gu(15)
+            anchors.horizontalCenter: parent.horizontalCenter
+            radius: "medium"
+            image: Image {
+                source: "file:///" + applicationDirPath + "/assets/icon.svg"
+            }
+        }
+
+        Label {
+            width: parent.width
+            font.pixelSize: units.gu(5)
+            font.bold: true
+            color: theme.palette.normal.backgroundText
+            horizontalAlignment: Text.AlignHCenter
+            text: i18n.tr("Telescope")
+        }
+
+        Label {
+            width: parent.width
+            color: UbuntuColors.ash
+            horizontalAlignment: Text.AlignHCenter
+            text: i18n.tr("Version ") + "0.0.2"
+        }
+
+        Label {
+            width: parent.width
+            horizontalAlignment: Text.AlignHCenter
+            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+            text: i18n.tr("This application let you synchronize with AsteroidOS smartwatches")
+        }
+
+        Label {
+            width: parent.width
+            linkColor: UbuntuColors.orange
+            horizontalAlignment: Text.AlignHCenter
+            wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+            //TRANSLATORS: Please make sure the URLs are correct
+            text: i18n.tr("Released under the terms of the <a href=\"https://github.com/AsteroidOS/telescope/blob/master/LICENSE\">GNU GPL v3</a>")
+            onLinkActivated: Qt.openUrlExternally(link)
+        }
+    }
 }
