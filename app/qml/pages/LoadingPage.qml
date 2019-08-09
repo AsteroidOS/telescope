@@ -11,6 +11,12 @@ Page {
         id: header
 
         title: "Telescope"
+        
+        StyleHints {
+            foregroundColor: "#FFF"
+            backgroundColor: "#E5822B"
+            dividerColor: "#85D8CE"
+        }
     } 
 
     ActivityIndicator {
