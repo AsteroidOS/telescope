@@ -5,6 +5,7 @@ import Ubuntu.Components 1.3
 Page {
     id: root
     property var watch: null
+    property int batteryLevel: 0
   
     header: PageHeader {
         id: header
@@ -29,13 +30,59 @@ Page {
 
         StyleHints {
             foregroundColor: "#FFF"
-            backgroundColor: UbuntuColors.orange
+            backgroundColor: "#E5822B"
             dividerColor: "#85D8CE"
         }
     }
 
-     Label {
-        anchors.centerIn: parent
-        text: i18n.tr("Battery Level: ") + root.watch.batteryLevel
+    RowLayout {
+        id: statusRowLayout
+        spacing: units.gu(4)
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: header.bottom   
+    
+        RowLayout {
+            spacing: units.gu(0.5)
+        
+            Icon {
+                id: syncIcon
+                width: units.gu(4)
+                height: units.gu(4)
+                color: "black"
+                name: curWatchConnected ? "sync-idle" : "sync-error"
+            }
+      
+            Label {
+                id: syncLabel
+                anchors.topMargin: units.gu(1)
+                text: curWatchConnected ? i18n.tr("connected") : i18n.tr("disconnected")
+            }
+        }
+        
+        RowLayout {
+            spacing: units.gu(0.5)
+        
+            Icon {
+                id: batteryIcon
+                width: units.gu(4)
+                height: units.gu(3)
+                color: "black"
+                name: "battery-full-symbolic"
+            }
+      
+            Label {
+                id: batteryLabel
+                anchors.topMargin: units.gu(1)
+                text: curWatchConnected ? batteryLevel + ("%") : i18n.tr("unkown")
+            }
+        }
     }
+
+    Timer {
+        interval: 1000
+        running: curWatchConnected
+        repeat: true
+        onTriggered: batteryLevel = root.watch.batteryLevel
+    }
+    
 }

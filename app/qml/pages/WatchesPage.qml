@@ -21,7 +21,7 @@ Page {
         
         StyleHints {
             foregroundColor: "#FFF"
-            backgroundColor: UbuntuColors.orange
+            backgroundColor: "#E5822B"
             dividerColor: "#85D8CE"
         }
     }
