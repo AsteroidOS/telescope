@@ -28,6 +28,7 @@ Page {
     
     ListView {
         id: watchesListView
+        visible: watches.count !== 0
         width: watchesPage.width
         height: watchesPage.height - header.height
         anchors.top: header.bottom
@@ -47,13 +48,14 @@ Page {
                     anchors.verticalCenter: modelLayout.verticalCenter
                     width: units.gu(3)
                     height: units.gu(3)
+                    color: "black"
                     name: "smartwatch-symbolic"
                 }
                   
                 Column {
                     id: column
-                    Text { text: model.name }
-                    Text { text: model.address + ": " + model.serialNumber }
+                    Text { font.bold: true; text: model.name }
+                    Text { text: model.address }
                 }
             }
               
@@ -68,4 +70,15 @@ Page {
         highlightMoveVelocity: -1
         focus: true
     }
+    
+    Label {
+        visible: watches.count === 0
+        anchors.centerIn: parent    
+        font.pointSize: units.gu(2)       
+        text: i18n.tr("No smartwatches configured yet.\n Please connect your smartwatch\n using System Settings.")
+        width: text.width
+        horizontalAlignment: Text.AlignHCenter
+        wrapMode: Text.WordWrap
+    }
+    
 }
