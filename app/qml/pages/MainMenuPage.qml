@@ -39,10 +39,11 @@ Page {
         id: statusRowLayout
         spacing: units.gu(4)
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.top: header.bottom   
+        anchors.top: header.bottom
     
         RowLayout {
             spacing: units.gu(0.5)
+            Layout.preferredHeight: units.gu(7)
         
             Icon {
                 id: syncIcon
@@ -54,7 +55,6 @@ Page {
       
             Label {
                 id: syncLabel
-                anchors.topMargin: units.gu(1)
                 text: curWatchConnected ? i18n.tr("connected") : i18n.tr("disconnected")
             }
         }
@@ -72,10 +72,55 @@ Page {
       
             Label {
                 id: batteryLabel
-                anchors.topMargin: units.gu(1)
                 text: curWatchConnected ? batteryLevel + ("%") : i18n.tr("unkown")
             }
         }
+    }
+    
+    // Divider
+    Rectangle {
+      id: dividerRect
+      anchors.top: statusRowLayout.bottom
+      width: parent.width      
+      height: 1
+      color : "grey"
+    }
+    
+    ScrollView {
+        id: scrollView
+        width: parent.width
+        height: parent.height
+        anchors.top: dividerRect.bottom
+        
+        contentItem: Column {
+            width: scrollView.width
+            
+            ListItem {
+              
+                ListItemLayout {
+                    title.text: i18n.tr("Synchronize time")
+                    Icon {
+                        name: "clock-app-symbolic"
+                        color: "black"
+                        width: units.gu(3)
+                        height: units.gu(3)
+                        SlotsLayout.position: SlotsLayout.Leading
+                    }
+
+                    Switch {
+                        id: timeSyncSwitch
+                        SlotsLayout.position: SlotsLayout.Trailing
+                        onCheckedChanged: settings.timeSync = checked
+                    }
+                }
+            }
+        }
+    }
+
+    Binding {
+        target: timeSyncSwitch
+        property: "checked"
+        value: settings.timeSync
     }
 
     Timer {
@@ -84,5 +129,11 @@ Page {
         repeat: true
         onTriggered: batteryLevel = root.watch.batteryLevel
     }
-    
+
+    Timer {
+        interval: 0
+        running: root.watch.timeServiceReady && settings.timeSync
+        repeat: false
+        onTriggered: root.watch.setTime(Date())
+    }
 }
