@@ -5,7 +5,7 @@ import Ubuntu.Components 1.3
 Page {
     id: root
     property var watch: null
-    property int batteryLevel: 0
+    property int batteryLevel: root.watch.batteryLevel
   
     header: PageHeader {
         id: header
@@ -121,13 +121,6 @@ Page {
         target: timeSyncSwitch
         property: "checked"
         value: settings.timeSync
-    }
-
-    Timer {
-        interval: 1000
-        running: curWatchConnected
-        repeat: true
-        onTriggered: batteryLevel = root.watch.batteryLevel
     }
 
     Connections {
