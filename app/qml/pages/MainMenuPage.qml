@@ -130,10 +130,8 @@ Page {
         onTriggered: batteryLevel = root.watch.batteryLevel
     }
 
-    Timer {
-        interval: 0
-        running: root.watch.timeServiceReady && settings.timeSync
-        repeat: false
-        onTriggered: root.watch.setTime(Date())
+    Connections {
+        target: root.watch
+        onTimeServiceReadyChanged: if(root.watch.timeServiceReady && settings.timeSync) root.watch.setTime(Date())
     }
 }
