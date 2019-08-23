@@ -7,5 +7,6 @@
         <file>qml/pages/MainMenuPage.qml</file>
         <file>qml/pages/WatchesPage.qml</file>
         <file>qml/pages/WeatherSettingsDialog.qml</file>
+        <file>qml/controller/SettingsController.qml</file>
     </qresource>
 </RCC>

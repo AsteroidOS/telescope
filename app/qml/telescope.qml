@@ -1,6 +1,7 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 import org.asteroid.syncservice 1.0
+import "controller"
 
 MainView {
 
@@ -15,6 +16,10 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
 
+    SettingsController {
+        id: settings
+    }
+    
     ServiceController {
         id: serviceController
         serviceName: "asteroidsyncserviced"
