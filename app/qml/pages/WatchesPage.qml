@@ -1,4 +1,5 @@
 import QtQuick 2.4
+import QtQuick.Controls.Suru 2.2
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
 
@@ -48,14 +49,21 @@ Page {
                     anchors.verticalCenter: modelLayout.verticalCenter
                     width: units.gu(3)
                     height: units.gu(3)
-                    color: "black"
+                    color: Suru.foregroundColor
                     name: "smartwatch-symbolic"
                 }
                   
                 Column {
                     id: column
-                    Text { font.bold: true; text: model.name }
-                    Text { text: model.address }
+                    Text {  
+                        color: Suru.foregroundColor
+                        font.bold: true
+                        text: model.name
+                    }
+                    Text {
+                        color: Suru.foregroundColor
+                        text: model.address
+                    }
                 }
             }
               
@@ -65,7 +73,7 @@ Page {
             }
         }
         
-        highlight: Rectangle { color: "lightsteelblue"; radius: 5 }
+        highlight: Rectangle { color: Suru.neutralColor; radius: 5 }
         highlightMoveDuration: 10
         highlightMoveVelocity: -1
         focus: true
@@ -73,8 +81,9 @@ Page {
     
     Label {
         visible: watches.count === 0
-        anchors.centerIn: parent    
-        font.pointSize: units.gu(2)       
+        anchors.centerIn: parent   
+        color: Suru.foregroundColor
+        font.pointSize: units.gu(2)     
         text: i18n.tr("No smartwatches configured yet.\n Please connect your smartwatch\n using System Settings.")
         width: text.width
         horizontalAlignment: Text.AlignHCenter
