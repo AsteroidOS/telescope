@@ -1,4 +1,5 @@
 import QtQuick 2.4
+import QtQuick.Controls.Suru 2.2
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
 
@@ -49,7 +50,7 @@ Page {
                 id: syncIcon
                 width: units.gu(4)
                 height: units.gu(4)
-                color: "black"
+                color: Suru.foregroundColor
                 name: curWatchConnected ? "sync-idle" : "sync-error"
             }
       
@@ -66,7 +67,7 @@ Page {
                 id: batteryIcon
                 width: units.gu(4)
                 height: units.gu(3)
-                color: "black"
+                color: Suru.foregroundColor
                 name: "battery-full-symbolic"
             }
       
@@ -83,7 +84,7 @@ Page {
       anchors.top: statusRowLayout.bottom
       width: parent.width      
       height: 1
-      color : "grey"
+      color: Suru.neutralColor
     }
     
     ScrollView {
@@ -101,7 +102,7 @@ Page {
                     title.text: i18n.tr("Synchronize time")
                     Icon {
                         name: "clock-app-symbolic"
-                        color: "black"
+                        color: Suru.foregroundColor
                         width: units.gu(3)
                         height: units.gu(3)
                         SlotsLayout.position: SlotsLayout.Leading

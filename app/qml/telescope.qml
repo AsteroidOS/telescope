@@ -1,4 +1,5 @@
 import QtQuick 2.4
+import QtQuick.Controls.Suru 2.2
 import Ubuntu.Components 1.3
 import org.asteroid.syncservice 1.0
 import "controller"
@@ -9,6 +10,8 @@ MainView {
     property alias curWatchConnected: watches.currentWatchConnected
     property var sysProfiles: [ ]
 
+    Suru.theme: theme.name === "Ubuntu.Components.Themes.SuruDark" ? Suru.Dark : Suru.Light
+    
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "telescope.asteroidos"
     automaticOrientation: true
