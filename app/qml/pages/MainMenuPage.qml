@@ -2,6 +2,7 @@ import QtQuick 2.4
 import QtQuick.Controls.Suru 2.2
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
+import "../components"
 
 Page {
     id: root
@@ -111,8 +112,21 @@ Page {
                     Switch {
                         id: timeSyncSwitch
                         SlotsLayout.position: SlotsLayout.Trailing
-                        onCheckedChanged: settings.timeSync = checked
+                        onCheckedChanged: {
+                            settings.timeSync = checked
+                            if(settings.timeSync == true) timeSync();
+                        }
                     }
+                }
+            }
+
+            ListItem {
+                width: parent.width
+                height: nsi.height > 0 ? nsi.height : units.gu(7)
+
+                NotificationServiceItem {
+                    id: nsi
+                    width: parent.width
                 }
             }
         }
@@ -123,9 +137,22 @@ Page {
         property: "checked"
         value: settings.timeSync
     }
-
+    
     Connections {
         target: root.watch
-        onTimeServiceReadyChanged: if(root.watch.timeServiceReady && settings.timeSync) root.watch.setTime(Date())
+        onTimeServiceReadyChanged: timeSync();
+    }
+    
+    function timeSync() {
+        if(root.watch.timeServiceReady && settings.timeSync) root.watch.setTime(Date())
+    }
+    
+    Connections {
+        target: root.watch
+        onNotificationServiceReadyChanged: setVib();
+    }
+    
+    function setVib() {
+        if(root.watch.notificationServiceReady) root.watch.setVibration(settings.notifyVib)
     }
 }

@@ -8,5 +8,8 @@
         <file>qml/pages/WatchesPage.qml</file>
         <file>qml/pages/WeatherSettingsDialog.qml</file>
         <file>qml/controller/SettingsController.qml</file>
+        <file>qml/components/ExpandableListItem.qml</file>
+        <file>qml/components/NotificationServiceItem.qml</file>
+        <file>qml/components/StandardListItem.qml</file>
     </qresource>
 </RCC>
