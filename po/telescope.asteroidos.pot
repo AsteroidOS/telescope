@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-23 13:07+0000\n"
+"POT-Creation-Date: 2019-10-08 19:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,81 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
+msgid "None"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
+msgid "Normal"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
+msgid "Strong"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
+msgid "Vibration on notification"
+msgstr ""
+
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
 msgid "Info"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
+msgid "Telescope"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
+msgid "Version "
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
+msgid "This application let you synchronize with AsteroidOS smartwatches"
+msgstr ""
+
+#. TRANSLATORS: Please make sure the URLs are correct
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
+msgid ""
+"Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
+"telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
 msgstr ""
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:9
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
 msgstr ""
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:10
-msgid "Watches"
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:27
+msgid "Restart Service"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
+msgid "connected"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
+msgid "disconnected"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:77
+msgid "unkown"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
+msgid "Synchronize time"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
+msgid ""
+"No smartwatches configured yet.\n"
+" Please connect your smartwatch\n"
+" using System Settings."
 msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
