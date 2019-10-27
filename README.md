@@ -2,6 +2,12 @@
 
 <img src="assets/icon.png" width="150" />
 
+## How to get it
+
+[![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/telescope.asteroidos)
+
+Or build it yourself following instructions below.
+
 ## Building the app
 
 You need to checkout the submodule once:
