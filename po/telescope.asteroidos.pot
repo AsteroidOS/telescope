@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-28 09:02+0000\n"
+"POT-Creation-Date: 2019-11-16 15:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,8 +83,20 @@ msgstr ""
 msgid "unkown"
 msgstr ""
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:102
 msgid "Synchronize time"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:134
+msgid "Watch-Finder"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:134
+msgid "The phone is looking for you!"
+msgstr ""
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:137
+msgid "Find my watch"
 msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
