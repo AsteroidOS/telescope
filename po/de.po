@@ -6,16 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-08 19:09+0000\n"
-"PO-Revision-Date: 2019-10-27 17:11+0100\n"
+"POT-Creation-Date: 2019-11-16 15:39+0000\n"
+"PO-Revision-Date: 2019-11-16 16:46+0100\n"
+"Last-Translator: JRT <git@jrtberlin.de>\n"
 "Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
-"Last-Translator: JRT <git@jrtberlin.de>\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: de\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
@@ -50,7 +50,8 @@ msgstr "Version "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr "Diese Applikation lässt dich deine AsteroidOS Smartwatch synchronisieren"
+msgstr ""
+"Diese Applikation lässt dich deine AsteroidOS Smartwatch synchronisieren"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -58,8 +59,8 @@ msgid ""
 "Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
 "telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
-"Veröffentlicht unter <a href=\"https://github.com/AsteroidOS/telescope/"
-"blob/master/LICENSE\">GNU GPL v3</a>"
+"Veröffentlicht unter <a href=\"https://github.com/AsteroidOS/telescope/blob/"
+"master/LICENSE\">GNU GPL v3</a>"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
@@ -85,19 +86,29 @@ msgstr "getrennt"
 msgid "unkown"
 msgstr "unbekannt"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:102
 msgid "Synchronize time"
 msgstr "Zeit synchronisieren"
 
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:134
+msgid "Watch-Finder"
+msgstr "Uhr-Finder"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:134
+msgid "The phone is looking for you!"
+msgstr "Das Telefon sucht dich!"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:137
+msgid "Find my watch"
+msgstr "Finde meine Uhr"
+
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
 msgid ""
-"No smartwatches configured yet.\n"
-" Please connect your smartwatch\n"
-" using System Settings."
+"No smartwatches configured yet. Please connect your smartwatch using System "
+"Settings."
 msgstr ""
-"Keine Smartwatch eingerichtet.\n"
-" Bitte verbinde deine Smartwatch\n"
-" über die Systemeinstellungen."
+"Keine Smartwatch eingerichtet. Bitte verbinde deine Smartwatch über die "
+"Systemeinstellungen."
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
