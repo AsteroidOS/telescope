@@ -98,7 +98,6 @@ Page {
             width: scrollView.width
             
             ListItem {
-              
                 ListItemLayout {
                     title.text: i18n.tr("Synchronize time")
                     Icon {
@@ -127,6 +126,22 @@ Page {
                 NotificationServiceItem {
                     id: nsi
                     width: parent.width
+                }
+            }
+            
+            ListItem {
+                enabled: root.watch.notificationServiceReady
+                onClicked: root.watch.sendNotify(Qt.formatDateTime(new Date(), "zzz"), "Telescope", "ios-watch-vibrating", i18n.tr("Watch-Finder"), i18n.tr("The phone is looking for you!"))
+                
+                ListItemLayout {
+                    title.text: i18n.tr("Find my watch")
+                    Icon {
+                        name: "broadcast"
+                        color: Suru.foregroundColor
+                        width: units.gu(3)
+                        height: units.gu(3)
+                        SlotsLayout.position: SlotsLayout.Leading
+                    }
                 }
             }
         }
