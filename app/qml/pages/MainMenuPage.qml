@@ -98,6 +98,7 @@ Page {
             width: scrollView.width
             
             ListItem {
+                enabled: root.watch.timeServiceReady
                 ListItemLayout {
                     title.text: i18n.tr("Synchronize time")
                     Icon {
@@ -120,6 +121,7 @@ Page {
             }
 
             ListItem {
+                enabled: root.watch.notificationServiceReady
                 width: parent.width
                 height: nsi.height > 0 ? nsi.height : units.gu(7)
 
