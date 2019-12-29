@@ -146,6 +146,25 @@ Page {
                     }
                 }
             }
+            
+            ListItem {
+                enabled: root.watch.screenshotServiceReady
+                onClicked: {
+                    root.watch.requestScreenshot()
+                    pageStack.push("qrc:/qml/pages/ScreenshotPage.qml", {watch: watch})
+                }
+                
+                ListItemLayout {
+                    title.text: i18n.tr("Take a screenshot")
+                    Icon {
+                        name: "stock_image"
+                        color: Suru.foregroundColor
+                        width: units.gu(3)
+                        height: units.gu(3)
+                        SlotsLayout.position: SlotsLayout.Leading
+                    }
+                }
+            }
         }
     }
 
@@ -172,4 +191,6 @@ Page {
     function setVib() {
         if(root.watch.notificationServiceReady) root.watch.setVibration(settings.notifyVib)
     }
+    
+    Component.onCompleted: root.watch.setScreenshotFileInfo("/home/phablet/.local/share/telescope.asteroidos/screenshot/'screenshot'ddMMyyyy_hhmmss'.jpg'");
 }
