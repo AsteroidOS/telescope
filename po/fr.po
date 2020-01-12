@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-08 19:09+0000\n"
-"PO-Revision-Date: 2019-10-27 16:27+0000\n"
+"POT-Creation-Date: 2019-12-28 19:54+0000\n"
+"PO-Revision-Date: 2020-01-12 18:55+0100\n"
 "Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,14 @@ msgstr "Forte"
 msgid "Vibration on notification"
 msgstr "Vibration en cas de notification"
 
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
+msgid "Share with"
+msgstr "Partager avec"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
+msgid "Save with"
+msgstr "Enregistrer avec"
+
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
@@ -49,7 +57,9 @@ msgstr "Version "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr "Cette application vous permet de vous synchroniser avec les montres connectées sous AsteroidOS"
+msgstr ""
+"Cette application vous permet de vous synchroniser avec les montres "
+"connectées sous AsteroidOS"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -88,15 +98,45 @@ msgstr "Inconnu"
 msgid "Synchronize time"
 msgstr "Synchroniser l'heure"
 
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
+msgid "Watch-Finder"
+msgstr "Trouveur de montre"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
+msgid "The phone is looking for you!"
+msgstr "Le téléphone te cherche !"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
+msgid "Find my watch"
+msgstr "Trouver ma montre"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
+msgid "Take a screenshot"
+msgstr "Prendre une capture d'écran"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
+msgid "Screenshot"
+msgstr "Capture d'écran"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
+msgid "Save"
+msgstr "Enregistrer"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
+msgid "Share"
+msgstr "Partager"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
+msgid "File saved under "
+msgstr "Fichier enregistré sous"
+
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
 msgid ""
-"No smartwatches configured yet.\n"
-" Please connect your smartwatch\n"
-" using System Settings."
+"No smartwatches configured yet. Please connect your smartwatch using System "
+"Settings."
 msgstr ""
-"Aucune montre connectée configurée pour le moment.\n"
-" Veuillez connecter votre montre\n"
-" en utilisant les paramètres du système."
+"Aucune montre connectée configurée pour le moment. Veuillez connecter votre "
+"montre en utilisant les paramètres du système."
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
