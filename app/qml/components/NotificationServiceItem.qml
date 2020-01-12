@@ -24,7 +24,7 @@ Item {
         listViewHeight: notificationModel.count*units.gu(6.1)
         model: notificationModel
         title.text: i18n.tr("Vibration on notification")
-        subText.text: settings.notifyVib
+        subText.text: i18n.tr(settings.notifyVib)
 
         delegate: StandardListItem {
             title.text: model.text
