@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-16 15:39+0000\n"
-"PO-Revision-Date: 2019-11-16 16:46+0100\n"
-"Last-Translator: JRT <git@jrtberlin.de>\n"
+"POT-Creation-Date: 2019-12-28 19:54+0000\n"
+"PO-Revision-Date: 2020-01-12 20:18+0100\n"
+"Last-Translator: StefWe <stefwe@mailbox.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +32,14 @@ msgstr "Stark"
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
 msgstr "Bei Benachrichtigung vibrieren"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
+msgid "Share with"
+msgstr "Teilen mit"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
+msgid "Save with"
+msgstr "Speichern mit"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
@@ -86,21 +94,41 @@ msgstr "getrennt"
 msgid "unkown"
 msgstr "unbekannt"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:102
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
 msgid "Synchronize time"
 msgstr "Zeit synchronisieren"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:134
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
 msgstr "Uhr-Finder"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:134
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
 msgstr "Das Telefon sucht dich!"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:137
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
 msgstr "Finde meine Uhr"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
+msgid "Take a screenshot"
+msgstr "Bildschirmfoto aufnehmen"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
+msgid "Screenshot"
+msgstr "Bildschirmfoto"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
+msgid "Save"
+msgstr "Speichern"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
+msgid "Share"
+msgstr "Teilen"
+
+#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
+msgid "File saved under "
+msgstr "Datei gespeichert unter "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
 msgid ""
