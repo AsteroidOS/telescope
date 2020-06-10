@@ -6,10 +6,11 @@
 
 |               | Bass | Dory | Sparrow |
 | ------------- | ---- | ---- | ------- |
-| arale         | ❗    | ❗    | ❓       |
+| arale         | ❗    | ❗    | ❔       |
+| bacon         | ✔️    | ❔    | ❔       |
 | hammerhead    | ✔️    | ❌    | ✔️       |
-| krillin       | ❓    | ❓    | ❗       |
-| mako          | ❓    | ❓    | ❌       |
+| krillin       | ❔    | ❔    | ❗       |
+| mako          | ❔    | ❔    | ❌       |
 | turbo         | ✔️    | ✔️    | ✔️       |
 
 
@@ -18,7 +19,7 @@
 |  ✔️     | Working fine             |
 |  ❌     | Doesn't connect          |
 |  ❗     | Looses connection        |
-|  ❓     | No information available |
+|  ❔     | No information available |
 
 ## How to get it
 
