@@ -2,6 +2,24 @@
 
 <img src="assets/icon.png" width="150" />
 
+## Compatibility matrix
+
+|               | Bass | Dory | Sparrow |
+| ------------- | ---- | ---- | ------- |
+| arale         | ❗    | ❗    | ❓       |
+| hammerhead    | ✔️    | ❌    | ✔️       |
+| krillin       | ❓    | ❓    | ❗       |
+| mako          | ❓    | ❓    | ❌       |
+| turbo         | ✔️    | ✔️    | ✔️       |
+
+
+| Symbol | meaning                  |
+| ------ | ------------------------ |
+|  ✔️     | Working fine             |
+|  ❌     | Doesn't connect          |
+|  ❗     | Looses connection        |
+|  ❓     | No information available |
+
 ## How to get it
 
 [![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/telescope.asteroidos)
