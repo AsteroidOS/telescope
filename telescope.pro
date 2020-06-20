@@ -25,6 +25,9 @@ UBUNTU_PO_FILES+=$$files(po/*.po)
 
 ASSETS_FILES += assets/icon.svg
 
+ARCH_TRIPLET=$$(ARCH_TRIPLET)
+QMAKE_SUBSTITUTES += telescope.desktop.in
+
 #specify where the config files are installed to
 assets_files.path = /assets
 assets_files.files += $${ASSETS_FILES}
@@ -33,8 +36,7 @@ INSTALLS+=assets_files
 
 OTHER_FILES += asteroidsyncserviced.apparmor \
                telescope.apparmor \
-               telescope.desktop \
-               telescope-wrapper
+               telescope.desktop
 
 #specify where the config files are installed to
 config_files.path = /
