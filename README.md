@@ -28,6 +28,10 @@
 
 Or build it yourself following instructions below.
 
+## Translating
+
+We are happy to receive any help with the translation. For this please use our [Weblate Webservice](https://hosted.weblate.org/projects/asteroidos/telescope/)
+
 ## Building the app
 
 You need to checkout the submodule once:
