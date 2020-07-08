@@ -62,7 +62,7 @@ Page {
             width: parent.width
             horizontalAlignment: Text.AlignHCenter
             wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-            text: i18n.tr("This application let you synchronize with AsteroidOS smartwatches")
+            text: i18n.tr("This app lets you synch with AsteroidOS smartwatches")
         }
 
         Label {
@@ -71,7 +71,7 @@ Page {
             horizontalAlignment: Text.AlignHCenter
             wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             //TRANSLATORS: Please make sure the URLs are correct
-            text: i18n.tr("Released under the terms of the <a href=\"https://github.com/AsteroidOS/telescope/blob/master/LICENSE\">GNU GPL v3</a>")
+            text: i18n.tr("Copylefted libre software licensed <a href=\"https://github.com/AsteroidOS/telescope/blob/master/LICENSE\">GPLv3+</a>")
             onLinkActivated: Qt.openUrlExternally(link)
         }
     }
