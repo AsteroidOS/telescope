@@ -100,7 +100,7 @@ Page {
             ListItem {
                 enabled: root.watch.timeServiceReady
                 ListItemLayout {
-                    title.text: i18n.tr("Synchronize time")
+                    title.text: i18n.tr("Sync time")
                     Icon {
                         name: "clock-app-symbolic"
                         color: Suru.foregroundColor
