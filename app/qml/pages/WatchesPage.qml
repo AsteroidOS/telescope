@@ -84,7 +84,7 @@ Page {
         anchors.centerIn: parent   
         color: Suru.foregroundColor
         font.pointSize: units.gu(2)     
-        text: i18n.tr("No smartwatches configured yet. Please connect your smartwatch using System Settings.")
+        text: i18n.tr("No smartwatches configured yet. Please connect your smartwatch using the system settings.")
         width: units.gu(40)
         horizontalAlignment: Text.AlignHCenter
         wrapMode: Text.WordWrap
