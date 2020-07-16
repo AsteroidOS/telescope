@@ -8,56 +8,60 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-07-17 22:41+0000\n"
+"Last-Translator: Nick Koroghlishvili <n.koroglishvili5@gmail.com>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/asteroidos/"
+"telescope/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
-msgstr ""
+msgstr "არცერთი"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
-msgstr ""
+msgstr "ნორმალური"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
-msgstr ""
+msgstr "ძლიერი"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
-msgstr ""
+msgstr "შეტყობინებისას ვიბრაცია"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Share with"
-msgstr ""
+msgstr "გაუზიარეთ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Save with"
-msgstr ""
+msgstr "შეინახეთ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
 msgid "Info"
-msgstr ""
+msgstr "ინფორმაცია"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
 msgid "Telescope"
-msgstr ""
+msgstr "ტელესკოპი"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
-msgstr ""
+msgstr "ვერსია "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
 msgstr ""
+"ეს აპლიკაცია AsteroidOS ჭკვიან საათებთან სინქრონიზაციის საშუალებას გაძლევთ"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -65,66 +69,68 @@ msgid ""
 "Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
 "telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
+"გამოცემულია <a href=\"https://github.com/AsteroidOS/telescope/blob/master/"
+"LICENSE\">GNU GPL v3</a> ლიცენზიით"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
-msgstr ""
+msgstr "მდებარეობის ამრჩევი"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
-msgstr ""
+msgstr "მენიუ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:27
 msgid "Restart Service"
-msgstr ""
+msgstr "სერვისის გადატვირთვა"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr ""
+msgstr "დაკავშირებულია"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
-msgstr ""
+msgstr "განკავშირებულია"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:77
 msgid "unkown"
-msgstr ""
+msgstr "უცნობია"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
 msgid "Synchronize time"
-msgstr ""
+msgstr "დროის სინქრონიზირება"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
-msgstr ""
+msgstr "საათის მპოვნელი"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
-msgstr ""
+msgstr "ტელეფონი გეძებთ!"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
-msgstr ""
+msgstr "იპოვე ჩემი საათი"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
 msgid "Take a screenshot"
-msgstr ""
+msgstr "სქრინშოტის გადაღება"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
-msgstr ""
+msgstr "სქრინშოტი"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
-msgstr ""
+msgstr "შენახვა"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
 msgid "Share"
-msgstr ""
+msgstr "გაზიარება"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
 msgid "File saved under "
-msgstr ""
+msgstr "ფაილი შენახულია- "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
 msgid ""
@@ -134,4 +140,4 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
-msgstr ""
+msgstr "ამინდის პარამეტრები"
