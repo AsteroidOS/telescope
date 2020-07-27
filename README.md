@@ -45,10 +45,15 @@ To build and run the app on the desktop run:
 ```
 clickable desktop
 ```
-To build and install a click package on the device run:
+To build and install a click package for an armhf device:
 
 ```
 clickable
+```
+To build and install a click package for an arm64 device:
+
+```
+clickable --arch=arm64
 ```
 
 See [clickable documentation](http://clickable.bhdouglass.com/en/latest/) for details.
