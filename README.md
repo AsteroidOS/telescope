@@ -13,7 +13,7 @@
 | krillin       | ❔    | ❔    | ❗       | ❔     | ❔        |
 | mako          | ❔    | ❔    | ❌       | ❔     | ❔        |
 | turbo         | ✔️    | ✔️    | ✔️       | ❔     | ❔        |
-| pinephone     | ❔    | ✔️    | ❔       | ❔     | ❔        |
+| pinephone     | ❔    | ✔️    | ❔       | ❔     | ✔️        |
 
 
 | Symbol | meaning                  |
