@@ -4,16 +4,16 @@
 
 ## Compatibility matrix
 
-|               | Bass | Dory | Sparrow | Smelt | Sturgeon |
-| ------------- | ---- | ---- | ------- | ----- | -------- |
-| arale         | ❗     | ❗    | ❔       | ❔     | ❔        |
-| bacon         | ✔️    | ❔    | ❔       | ✔️    | ❔        |
-| cancro        | ❔    | ❔    | ❔       | ✔️    | ✔️        |
-| hammerhead    | ✔️    | ❌    | ✔️      | ❔     | ❔        |
-| krillin       | ❔    | ❔    | ❗       | ❔     | ❔        |
-| mako          | ❔    | ❔    | ❌       | ❔     | ❔        |
-| turbo         | ✔️    | ✔️    | ✔️       | ❔     | ❔        |
-| pinephone     | ❔    | ✔️    | ❔       | ❔     | ✔️        |
+|               | Bass | Dory | Lenok | Sparrow | Smelt | Sturgeon |
+| ------------- | ---- | ---- | ------- | ------- | ----- | -------- |
+| arale         | ❗    | ❗    | ❔     | ❔       | ❔     | ❔        |
+| bacon         | ✔️    | ❔    | ❔     | ❔       | ✔️     | ❔        |
+| cancro        | ❔    | ❔    | ❔     | ❔       | ✔️     | ✔️        |
+| hammerhead    | ✔️    | ❌    | ❔     | ✔️       | ❔     | ❔        |
+| krillin       | ❔    | ❔    | ❔     | ❗       | ❔     | ❔        |
+| mako          | ❔    | ❔    | ❔     | ❌       | ❔     | ❔        |
+| turbo         | ✔️    | ✔️    | ❔     | ✔️       | ❔     | ❔        |
+| pinephone     | ❔    | ✔️    | ✔️     | ❔       | ❔     | ✔️        |
 
 
 | Symbol | meaning                  |
