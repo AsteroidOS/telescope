@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2020-07-15 18:41+0000\n"
-"Last-Translator: Переводчик <anon-50@mail.ru>\n"
+"PO-Revision-Date: 2020-08-11 08:32+0000\n"
+"Last-Translator: Alexey Napalkov <flynbit@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/ru/>\n"
 "Language: ru\n"
@@ -21,7 +21,6 @@ msgstr ""
 "X-Generator: Weblate 4.2-dev\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
-#, fuzzy
 msgid "None"
 msgstr "Нет"
 
@@ -30,9 +29,8 @@ msgid "Normal"
 msgstr "Нормально"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
-#, fuzzy
 msgid "Strong"
-msgstr "Сложный"
+msgstr "Сильно"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
@@ -62,7 +60,6 @@ msgid "Version "
 msgstr "Версия "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
-#, fuzzy
 msgid "This application let you synchronize with AsteroidOS smartwatches"
 msgstr "Это приложение позволяет синхронизировать с умными часами AsteroidOS"
 
@@ -77,7 +74,7 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
-msgstr ""
+msgstr "Выбор местоположения"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
@@ -109,7 +106,6 @@ msgid "Watch-Finder"
 msgstr "Поиск часов"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
-#, fuzzy
 msgid "The phone is looking for you!"
 msgstr "Телефон ищет вас!"
 
@@ -134,12 +130,10 @@ msgid "Share"
 msgstr "Поделиться"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
-#, fuzzy
 msgid "File saved under "
 msgstr "Файл сохранен в "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
-#, fuzzy
 msgid ""
 "No smartwatches configured yet. Please connect your smartwatch using System "
 "Settings."
