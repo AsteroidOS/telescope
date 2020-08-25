@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Telescope
-Exec=env QML2_IMPORT_PATH=./usr/lib/$${ARCH_TRIPLET}/qt5/qml telescope
+Exec=env QML2_IMPORT_PATH=usr/lib/$${ARCH_TRIPLET}/qt5/qml telescope
 Icon=assets/icon.svg
 Terminal=false
 Type=Application
