@@ -55,7 +55,7 @@ Page {
             width: parent.width
             color: UbuntuColors.ash
             horizontalAlignment: Text.AlignHCenter
-            text: i18n.tr("Version ") + "0.0.6"
+            text: i18n.tr("Version ") + "0.0.7"
         }
 
         Label {
