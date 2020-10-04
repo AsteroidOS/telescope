@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2020-10-04 14:53+0000\n"
+"PO-Revision-Date: 2020-10-04 14:54+0000\n"
 "Last-Translator: Xeon Determined <xeon@e.email>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "asteroidos/telescope/zh_Hans/>\n"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
-msgstr "位置拾取"
+msgstr "位置选择器"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
