@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
 "PO-Revision-Date: 2020-10-04 14:54+0000\n"
-"Last-Translator: Xeon Determined <xeon@e.email>\n"
+"Last-Translator: tao wang <tonywang5@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "asteroidos/telescope/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -52,7 +52,7 @@ msgstr "信息"
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
 msgid "Telescope"
-msgstr ""
+msgstr "望远镜"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
@@ -60,7 +60,7 @@ msgstr "版本信息 "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr "通过本应用你可以同步你的AsteroidOS智能手表"
+msgstr "通过本应用可以同步您的AsteroidOS智能手表"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
