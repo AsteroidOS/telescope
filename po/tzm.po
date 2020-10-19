@@ -8,17 +8,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-20 14:26+0000\n"
+"Last-Translator: Hakim Oubouali <hakim.oubouali.skr@gmail.com>\n"
+"Language-Team: Central Atlas Tamazight <https://hosted.weblate.org/projects/"
+"asteroidos/telescope/tzm/>\n"
 "Language: tzm\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n >= 2 && (n < 11 || n > 99);\n"
+"X-Generator: Weblate 4.3.1-dev\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
-msgstr ""
+msgstr "Walu"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
@@ -34,26 +37,26 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Share with"
-msgstr ""
+msgstr "Bḍu akd"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Save with"
-msgstr ""
+msgstr "Ḥdu s"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
 msgid "Info"
-msgstr ""
+msgstr "Umalen"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
 msgid "Telescope"
-msgstr ""
+msgstr "Tiliskop"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
-msgstr ""
+msgstr "Taleqqimt "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
@@ -80,7 +83,7 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr ""
+msgstr "Izdy"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
@@ -116,11 +119,11 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
-msgstr ""
+msgstr "Ḥdu"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
 msgid "Share"
-msgstr ""
+msgstr "Bḍu"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
 msgid "File saved under "
