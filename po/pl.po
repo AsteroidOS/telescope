@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
 "PO-Revision-Date: 2020-12-13 20:29+0000\n"
-"Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
+"Last-Translator: kakiremora <piotrek.pastuszak2003@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/pl/>\n"
 "Language: pl\n"
@@ -53,7 +53,7 @@ msgstr "Informacje"
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
 msgid "Telescope"
-msgstr ""
+msgstr "Teleskop"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
