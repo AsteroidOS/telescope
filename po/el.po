@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2021-01-23 10:13+0000\n"
-"Last-Translator: Savvas Sfantos <savvassfa@gmail.com>\n"
+"PO-Revision-Date: 2021-01-23 11:51+0000\n"
+"Last-Translator: Bargi Nick <bargiamakis@hotmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/el/>\n"
 "Language: el\n"
@@ -61,8 +61,7 @@ msgstr "Έκδοση "
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
 msgstr ""
-"Η εφαρμογή σας επιτρέπει να προχωρήσετε σε συγχρονισμό με smartwatches "
-"λειτουργικού AsteroidOS"
+"Αυτή η εφαρμογή σας επιτρέπει να συγχρονιστείτε με έξυπνα ρολόγια AsteroidOS"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -73,7 +72,7 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
-msgstr "ΕπιλογέαςΤοποθεσίας"
+msgstr "Επιλογή τοποθεσίας"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
@@ -113,7 +112,7 @@ msgstr "Βρες το ρολόι μου"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
 msgid "Take a screenshot"
-msgstr ""
+msgstr "Λήψη στιγμιότυπου οθόνης"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
