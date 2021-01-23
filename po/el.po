@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
 "PO-Revision-Date: 2021-01-24 13:32+0000\n"
-"Last-Translator: takispanag <takis.panagiot1@gmail.com>\n"
+"Last-Translator: Chris Mitsos <mitsman89@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/el/>\n"
 "Language: el\n"
@@ -118,7 +118,7 @@ msgstr "Λήψη στιγμιότυπου οθόνης"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
-msgstr ""
+msgstr "στιγμιότυπο οθόνης"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
@@ -130,7 +130,7 @@ msgstr "Κοινοποίηση σε"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
 msgid "File saved under "
-msgstr ""
+msgstr "Αρχείο αποθηκευμένο ως "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
 msgid ""
