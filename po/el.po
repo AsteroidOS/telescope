@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2021-01-24 13:32+0000\n"
-"Last-Translator: Chris Mitsos <mitsman89@gmail.com>\n"
+"PO-Revision-Date: 2021-02-01 18:05+0000\n"
+"Last-Translator: Bargi Nick <bargiamakis@hotmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/el/>\n"
 "Language: el\n"
@@ -102,7 +102,7 @@ msgstr "Συγχρονισμός ώρας"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
-msgstr ""
+msgstr "εύρεση-ρολογιού"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
