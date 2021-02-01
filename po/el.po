@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2021-02-01 18:05+0000\n"
-"Last-Translator: Bargi Nick <bargiamakis@hotmail.com>\n"
+"PO-Revision-Date: 2021-02-02 18:41+0000\n"
+"Last-Translator: Stratos Kostidis <petros8280@hotmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/el/>\n"
 "Language: el\n"
@@ -102,7 +102,7 @@ msgstr "Συγχρονισμός ώρας"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
-msgstr "εύρεση-ρολογιού"
+msgstr "Εύρεση-Ρολογιού"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
@@ -118,7 +118,7 @@ msgstr "Λήψη στιγμιότυπου οθόνης"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
-msgstr "στιγμιότυπο οθόνης"
+msgstr "Στιγμιότυπο οθόνης"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
@@ -137,8 +137,8 @@ msgid ""
 "No smartwatches configured yet. Please connect your smartwatch using System "
 "Settings."
 msgstr ""
-"Δεν έχει συνδεθεί κάποιο smartwatch.\n"
-"Παρακαλώ όπως συνδέσετε το smartwatch σας μέσω τον ρυθμίσεων της συσκευής."
+"Δεν έχει ρυθμιστεί ακόμη κάποιο smartwatch. Παρακαλώ όπως συνδέσετε το "
+"smartwatch σας μέσω τον ρυθμίσεων της συσκευής."
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
