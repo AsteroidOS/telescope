@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # carlosgonz <carlosgonz@tutanota.com>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-16 15:39+0000\n"
-"PO-Revision-Date: 2019-10-16 HO:MI+ZONE\n"
-"Last-Translator: carlosgonz <carlosgonz@tutanota.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-02-26 13:50+0000\n"
+"Last-Translator: Brandan <brandanpl@outlook.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/asteroidos/"
+"telescope/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
@@ -46,11 +48,11 @@ msgstr "Telescope"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
-msgstr "Versión"
+msgstr "Versión "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr "Esta aplicación permite sincronizar el reloj  Asteroid"
+msgstr "Esta aplicación permite sincronizar el reloj Asteroid"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -59,7 +61,7 @@ msgid ""
 "telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
 "Publicado bajo los términos de la <a href=\"https://github.com/AsteroidOS/"
-"telescope/blob/master/LICENSE\">GNU GPL v3</a>" 
+"telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
@@ -107,7 +109,7 @@ msgid ""
 "Settings."
 msgstr ""
 "No hay relojes configurados. Conectar el reloj usando la configuración del "
-"sistema." 
+"sistema."
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
