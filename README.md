@@ -14,6 +14,7 @@
 | mako          | ❔    | ❔    | ❔     | ❌       | ❔     | ❔        |
 | turbo         | ✔️    | ✔️    | ❔     | ✔️       | ❔     | ❔        |
 | pinephone     | ❔    | ✔️    | ✔️     | ❔       | ❔     | ✔️        |
+| sargo         | ✔️    | ❔    | ❔     | ❔       | ❔     | ❔        |
 
 
 | Symbol | meaning                  |
