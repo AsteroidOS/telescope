@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2022-05-18 09:14+0000\n"
+"PO-Revision-Date: 2022-05-19 10:15+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/eo/>\n"
@@ -21,19 +21,19 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
-msgstr ""
+msgstr "Nenio"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
-msgstr ""
+msgstr "Ordinara"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
-msgstr ""
+msgstr "Forta"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
-msgstr ""
+msgstr "Vibrado dum sciigo"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Share with"
@@ -47,7 +47,7 @@ msgstr ""
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
 msgid "Info"
-msgstr ""
+msgstr "Informoj"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
@@ -60,7 +60,7 @@ msgstr "Versio "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr ""
+msgstr "Jen programo por sinkronigi kun saĝhorloĝoj rulantaj AsteroidOS"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -68,58 +68,60 @@ msgid ""
 "Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
 "telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
+"Havebla laŭ <a href=\"https://github.com/AsteroidOS/telescope/blob/master/"
+"LICENSE\">GNU GPL v3</a>"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
-msgstr ""
+msgstr "Lokelektilo"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
-msgstr ""
+msgstr "Menuo"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:27
 msgid "Restart Service"
-msgstr ""
+msgstr "Relanĉi servon"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr ""
+msgstr "konektita"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
-msgstr ""
+msgstr "malkonektita"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:77
 msgid "unkown"
-msgstr ""
+msgstr "nekonata"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
 msgid "Synchronize time"
-msgstr ""
+msgstr "Sinkronigi tempon"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
-msgstr ""
+msgstr "Horloĝtrovilo"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
-msgstr ""
+msgstr "La telefono serĉas vin!"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
-msgstr ""
+msgstr "Trovi mian horloĝon"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
 msgid "Take a screenshot"
-msgstr ""
+msgstr "Fari ekrankopion"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
-msgstr ""
+msgstr "Ekrankopio"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
-msgstr ""
+msgstr "Konservi"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
 msgid "Share"
@@ -134,7 +136,9 @@ msgid ""
 "No smartwatches configured yet. Please connect your smartwatch using System "
 "Settings."
 msgstr ""
+"Neniu saĝhorloĝo konektita. Bonvolu konekti vian saĝhorloĝon per Sistemaj "
+"Agordoj."
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
-msgstr ""
+msgstr "Agordoj pri vetero"
