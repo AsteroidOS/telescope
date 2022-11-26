@@ -1,6 +1,0 @@
-{
-  "builder": "qmake",
-  "kill": "telescope",
-  "build_args": "CONFIG+=telescope",
-  "make_jobs": 2
-}
