@@ -1,0 +1,7 @@
+clickable_minimum_required: 7.1.2
+builder: qmake
+kill: telescope
+build_args: CONFIG+=telescope
+make_jobs: 2
+ignore_review_warnings: true
+
