@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2021-07-25 15:34+0000\n"
+"PO-Revision-Date: 2023-05-05 05:52+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/fa/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
@@ -85,7 +85,7 @@ msgstr "آغاز دوبارهٔ خدمت"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr "وصل‌شده"
+msgstr "وصل شده"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
