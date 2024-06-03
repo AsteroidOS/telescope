@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2024-05-27 13:41+0000\n"
+"PO-Revision-Date: 2024-06-04 07:27+0000\n"
 "Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "asteroidos/telescope/zh_Hant/>\n"
@@ -68,6 +68,8 @@ msgid ""
 "Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
 "telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
+"根據 <a href=\"https://github.com/AsteroidOS/telescope/blob/master/LICENSE\""
+">GNU GPL v3</a> 條款發佈"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
@@ -111,7 +113,7 @@ msgstr "尋找我的手錶"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
 msgid "Take a screenshot"
-msgstr "螢幕截圖"
+msgstr "進行螢幕截圖"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
@@ -133,7 +135,7 @@ msgstr "檔案已儲存在 "
 msgid ""
 "No smartwatches configured yet. Please connect your smartwatch using System "
 "Settings."
-msgstr ""
+msgstr "尚未配置智慧手錶。請使用系統設定連接你的智慧手錶。"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
