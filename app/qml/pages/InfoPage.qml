@@ -1,6 +1,6 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 Page {
 
@@ -33,7 +33,7 @@ Page {
         anchors.top: header.bottom
         width:parent.width
 
-        UbuntuShape {
+        LomiriShape {
             width: units.gu(15); height: units.gu(15)
             anchors.horizontalCenter: parent.horizontalCenter
             radius: "medium"
@@ -53,7 +53,7 @@ Page {
 
         Label {
             width: parent.width
-            color: UbuntuColors.ash
+            color: LomiriColors.ash
             horizontalAlignment: Text.AlignHCenter
             text: i18n.tr("Version ") + "0.0.7"
         }
@@ -67,7 +67,7 @@ Page {
 
         Label {
             width: parent.width
-            linkColor: UbuntuColors.orange
+            linkColor: LomiriColors.orange
             horizontalAlignment: Text.AlignHCenter
             wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             //TRANSLATORS: Please make sure the URLs are correct
