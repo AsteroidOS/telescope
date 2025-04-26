@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2025-04-26 19:02+0000\n"
-"Last-Translator: Darshula <Darshula@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-04-26 23:06+0000\n"
+"Last-Translator: Govind Gopal Yadav <govindgopalgaming@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/hi/>\n"
 "Language: hi\n"
@@ -29,7 +29,7 @@ msgstr "सामान्य"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
-msgstr "प्रबळ"
+msgstr "मजबूत/प्रबळ/तेज"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
@@ -56,11 +56,12 @@ msgstr "दूरदर्शक"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
-msgstr ""
+msgstr "संस्करण "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr "यह अनुप्रयोग आपको अ‍ॅस्टेरॉईडओएस स्मार्टवॉचसह समक्रमित करने देता हे"
+msgstr ""
+"यह एप्लिकेशन आपको AsteroidOS स्मार्टवॉच के साथ सिंक्रोनाइज़ करने देता है"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -73,15 +74,15 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
-msgstr ""
+msgstr "लोकेशन पिकर"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
-msgstr ""
+msgstr "मेनू"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:27
 msgid "Restart Service"
-msgstr ""
+msgstr "सेवा पुनः आरंभ करें"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
@@ -93,15 +94,15 @@ msgstr "डिस्कनेक्टेड"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:77
 msgid "unkown"
-msgstr ""
+msgstr "अज्ञात"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
 msgid "Synchronize time"
-msgstr ""
+msgstr "समय मिलाएं"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
-msgstr ""
+msgstr "घड़ी-खोजक"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
@@ -109,34 +110,36 @@ msgstr "फोन आपको ढूंढ रहा है!"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
-msgstr "मेरी घडी ढूंढो"
+msgstr "मेरी घड़ी ढूंढो"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
 msgid "Take a screenshot"
-msgstr ""
+msgstr "स्क्रीनशॉट लें"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
-msgstr ""
+msgstr "स्क्रीनशॉट"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
-msgstr ""
+msgstr "सहेजें"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
 msgid "Share"
-msgstr ""
+msgstr "भेजे"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
 msgid "File saved under "
-msgstr ""
+msgstr "में फाइल सहेजी गई "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
 msgid ""
 "No smartwatches configured yet. Please connect your smartwatch using System "
 "Settings."
 msgstr ""
+"अभी तक कोई स्मार्टवॉच कॉन्फ़िगर नहीं की गई है। कृपया सिस्टम सेटिंग का उपयोग करके अपनी "
+"स्मार्टवॉच कनेक्ट करें।"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
-msgstr ""
+msgstr "मौसम सेटिंग्स"
