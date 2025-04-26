@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
 "PO-Revision-Date: 2025-04-26 19:02+0000\n"
-"Last-Translator: Govind Gopal Yadav <govindgopalgaming@gmail.com>\n"
+"Last-Translator: Darshula <Darshula@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/hi/>\n"
 "Language: hi\n"
@@ -29,7 +29,7 @@ msgstr "सामान्य"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
-msgstr ""
+msgstr "प्रबळ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
