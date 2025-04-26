@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2025-04-26 18:55+0000\n"
+"PO-Revision-Date: 2025-04-26 19:02+0000\n"
 "Last-Translator: Govind Gopal Yadav <govindgopalgaming@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/hi/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
-msgstr ""
+msgstr "कोई नहीं"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
@@ -33,15 +33,15 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
-msgstr ""
+msgstr "सूचना पर कंपन"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Share with"
-msgstr ""
+msgstr "के साथ शेयर करें"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Save with"
-msgstr ""
+msgstr "के साथ सहेजें"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
@@ -85,11 +85,11 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr ""
+msgstr "कनेक्टेड"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
-msgstr "डिस्कनेक्ट"
+msgstr "डिस्कनेक्टेड"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:77
 msgid "unkown"
