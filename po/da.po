@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2022-01-07 22:52+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2025-05-15 08:01+0000\n"
+"Last-Translator: Jacob Madsen <jamesoft@gmail.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/da/>\n"
 "Language: da\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
@@ -72,7 +72,6 @@ msgstr ""
 "LICENSE\">GPLv3+</a>"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
-#, fuzzy
 msgid "LocationPicker"
 msgstr "Positionsvælger"
 
@@ -86,7 +85,7 @@ msgstr "Start tjenesten om igen"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr "tilkoblet"
+msgstr "forbundet"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
@@ -106,7 +105,7 @@ msgstr "Armbåndsur-finner"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
-msgstr "Telefonen søger efter dig."
+msgstr "Telefonen leder efter dig!"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
@@ -133,13 +132,12 @@ msgid "File saved under "
 msgstr "Fil lagret i "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
-#, fuzzy
 msgid ""
 "No smartwatches configured yet. Please connect your smartwatch using System "
 "Settings."
 msgstr ""
-"Ingen armbåndsur er opsat endnu. Koble til eders armbåndsur i "
-"systemindstillingerne."
+"Ingen smartwatches konfigureret endnu. Tilslut venligst dit smartwatch ved "
+"hjælp af Systemindstillinger."
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
