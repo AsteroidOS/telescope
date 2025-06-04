@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2025-04-26 23:06+0000\n"
-"Last-Translator: Govind Gopal Yadav <govindgopalgaming@gmail.com>\n"
+"PO-Revision-Date: 2025-06-05 12:01+0000\n"
+"Last-Translator: DuskyElf <91879372+DuskyElf@users.noreply.github.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/hi/>\n"
 "Language: hi\n"
@@ -86,7 +86,7 @@ msgstr "सेवा पुनः आरंभ करें"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr "कनेक्टेड"
+msgstr "कोनेक्टिड"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
