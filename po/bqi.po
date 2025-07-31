@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2025-07-30 17:04+0000\n"
+"PO-Revision-Date: 2025-07-31 23:01+0000\n"
 "Last-Translator: hosêyň abāspanā <hosseinabaspanah@gmail.com>\n"
 "Language-Team: Luri (Bakhtiari) <https://hosted.weblate.org/projects/"
 "asteroidos/telescope/bqi/>\n"
@@ -102,7 +102,7 @@ msgstr "هوم گوم کردن زمووݩ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
-msgstr "ساعت جۊر"
+msgstr "ساعت‌جۊر"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
@@ -114,23 +114,23 @@ msgstr "ساعتومه بجۊر"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
 msgid "Take a screenshot"
-msgstr "شؽوات ز بلگه"
+msgstr "شؽوات بلگه"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
-msgstr ""
+msgstr "شؽوات بلگه"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
-msgstr ""
+msgstr "زفت"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
 msgid "Share"
-msgstr ""
+msgstr "یک رسۊوی"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
 msgid "File saved under "
-msgstr ""
+msgstr "فایل زفت وابیڌه من. "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
 msgid ""
@@ -140,4 +140,4 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
-msgstr ""
+msgstr "سامووا او وو هوا"
