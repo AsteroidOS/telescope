@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2025-07-31 23:01+0000\n"
+"PO-Revision-Date: 2025-08-02 08:01+0000\n"
 "Last-Translator: hosêyň abāspanā <hosseinabaspanah@gmail.com>\n"
 "Language-Team: Luri (Bakhtiari) <https://hosted.weblate.org/projects/"
 "asteroidos/telescope/bqi/>\n"
@@ -41,7 +41,7 @@ msgstr "یک رسۊوی وا"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Save with"
-msgstr ""
+msgstr "زفت وا"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
@@ -56,11 +56,11 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
-msgstr ""
+msgstr "نوسخه "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr ""
+msgstr "ای برنومه هؽله وا ساعتا هۊشمند ٱستروید او اس هوم گوم بۊین"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
