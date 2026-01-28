@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2020-09-13 21:36+0000\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"PO-Revision-Date: 2026-01-28 10:50+0000\n"
+"Last-Translator: Çağhan Demir <dmrcghn@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/asteroidos/"
 "telescope/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
@@ -25,7 +25,7 @@ msgstr "Hiçbiri"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
-msgstr "Olağan"
+msgstr "Normal"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
@@ -60,7 +60,8 @@ msgstr "Sürüm "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr "Bu uygulama AsteroidOS saatleriyle eşitlemenizi sağlar"
+msgstr ""
+"Bu uygulama AsteroidOS akıllı saatler ile senkronizasyon yapmanızı sağlar"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -97,7 +98,7 @@ msgstr "bilinmeyen"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
 msgid "Synchronize time"
-msgstr "Eşitleme saati"
+msgstr "Zamanı eşitle"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
@@ -105,7 +106,7 @@ msgstr "Saat Bulucu"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
-msgstr "Telefon sana bakıyor!"
+msgstr "Telefon seni arıyor!"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
