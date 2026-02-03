@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: 2025-08-02 08:01+0000\n"
+"PO-Revision-Date: 2026-02-04 07:01+0000\n"
 "Last-Translator: hosêyň abāspanā <hosseinabaspanah@gmail.com>\n"
 "Language-Team: Luri (Bakhtiari) <https://hosted.weblate.org/projects/"
 "asteroidos/telescope/bqi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
@@ -29,7 +29,7 @@ msgstr "عادی"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
-msgstr ""
+msgstr "قوی"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
@@ -52,7 +52,7 @@ msgstr "دووسمندیا"
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
 msgid "Telescope"
-msgstr ""
+msgstr "تلسکوپ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
@@ -102,7 +102,7 @@ msgstr "هوم گوم کردن زمووݩ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
-msgstr "ساعت‌جۊر"
+msgstr "ساعت جۊر"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
@@ -137,6 +137,8 @@ msgid ""
 "No smartwatches configured yet. Please connect your smartwatch using System "
 "Settings."
 msgstr ""
+"هنی هیچ ساعت هۊشمندی سامووݩ داڌه نوابیڌه. ساعت هۊشمندتووݩ ن ز سامووا سیستوم "
+"منپیز کۊنین."
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
