@@ -1,7 +1,7 @@
-clickable_minimum_required: 7.1.2
-builder: qmake
+clickable_minimum_required: 8.0.0
+builder: cmake
 kill: telescope
-build_args: CONFIG+=telescope
-make_jobs: 2
+build_args: -DUBUNTU_TOUCH_PLATFORM=ON
+make_jobs: 1
 ignore_review_warnings: true
 
