@@ -8,44 +8,46 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-21 09:09+0000\n"
+"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
+"Language-Team: Occitan <https://hosted.weblate.org/projects/asteroidos/"
+"telescope/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
-msgstr ""
+msgstr "Cap"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
-msgstr ""
+msgstr "Fòrt"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
-msgstr ""
+msgstr "Vibrar en notificant"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Share with"
-msgstr ""
+msgstr "Partejar amb :"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Save with"
-msgstr ""
+msgstr "Enregistrar amb"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
 msgid "Info"
-msgstr ""
+msgstr "Informacions"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
@@ -69,11 +71,11 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
-msgstr ""
+msgstr "Causir l'emplaçament"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
-msgstr ""
+msgstr "Menú"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:27
 msgid "Restart Service"
@@ -81,7 +83,7 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr ""
+msgstr "connectat"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
@@ -121,7 +123,7 @@ msgstr ""
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
 msgid "Share"
-msgstr ""
+msgstr "Partejar"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
 msgid "File saved under "
