@@ -8,57 +8,59 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-28 19:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-09-05 21:51+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://hosted.weblate.org/projects/asteroidos/telescope/"
+"lo/>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.9.1.dev0\n"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
-msgstr ""
+msgstr "ບໍ່ມີ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
-msgstr ""
+msgstr "ປົກກະຕິ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
-msgstr ""
+msgstr "ແຮງ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
-msgstr ""
+msgstr "ສັ່ນເຕືອນເມື່ອມີການແຈ້ງເຕືອນ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Share with"
-msgstr ""
+msgstr "ແບ່ງປັນກັບ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
 msgid "Save with"
-msgstr ""
+msgstr "ບັນທຶກກັບ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
 msgid "Info"
-msgstr ""
+msgstr "ຂໍ້ມູນ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
 msgid "Telescope"
-msgstr ""
+msgstr "Telescope"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
 msgid "Version "
-msgstr ""
+msgstr "ເວີຊັນ "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
 msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr ""
+msgstr "ແອັບພລິເຄຊັນນີ້ຊ່ວຍໃຫ້ທ່ານສາມາດຊິງຄ໌ຂໍ້ມູນກັບໂມງອັດສະລິຍະ AsteroidOS"
 
 #. TRANSLATORS: Please make sure the URLs are correct
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
@@ -66,73 +68,76 @@ msgid ""
 "Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
 "telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgstr ""
+"ອອກພາຍໃຕ້ເງື່ອນໄຂຂອງ <a href=\"https://github.com/AsteroidOS/telescope/blob/"
+"master/LICENSE\">GNU GPL v3</a>"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
-msgstr ""
+msgstr "ຕົວເລືອກສະຖານທີ່"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
-msgstr ""
+msgstr "ເມນູ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:27
 msgid "Restart Service"
-msgstr ""
+msgstr "ເລີ່ມການບໍລິການໃໝ່"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
-msgstr ""
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
-msgstr ""
+msgstr "ຕັດເຊື່ອມຕໍ່"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:77
 msgid "unkown"
-msgstr ""
+msgstr "ບໍ່ຮູ້ຈັກ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
 msgid "Synchronize time"
-msgstr ""
+msgstr "ຊິງຄ໌ເວລາ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
-msgstr ""
+msgstr "ຕົວຊອກຫາໂມງ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
-msgstr ""
+msgstr "ໂທລະສັບກຳລັງຊອກຫາທ່ານ!"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
-msgstr ""
+msgstr "ຊອກຫາໂມງຂອງຂ້ອຍ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
 msgid "Take a screenshot"
-msgstr ""
+msgstr "ຖ່າຍຮູບໜ້າຈໍ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
-msgstr ""
+msgstr "ຮູບໜ້າຈໍ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
-msgstr ""
+msgstr "ບັນທຶກ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
 msgid "Share"
-msgstr ""
+msgstr "ແບ່ງປັນ"
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
 msgid "File saved under "
-msgstr ""
+msgstr "ໄຟລ໌ຖືກບັນທຶກໄວ້ທີ່ "
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
 msgid ""
 "No smartwatches configured yet. Please connect your smartwatch using System "
 "Settings."
 msgstr ""
+"ຍັງບໍ່ມີການຕັ້ງຄ່າໂມງອັດສະລິຍະເທື່ອ. ກະລຸນາເຊື່ອມຕໍ່ໂມງອັດສະລິຍະຂອງທ່ານຜ່ານການຕັ້ງຄ່າລະບົບ."
 
 #: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
-msgstr ""
+msgstr "ການຕັ້ງຄ່າສະພາບອາກາດ"
