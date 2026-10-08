@@ -1,6 +1,6 @@
 import QtQuick 2.4
 import QtQuick.Controls.Suru 2.2
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import org.asteroid.syncservice 1.0
 import "controller"
 
