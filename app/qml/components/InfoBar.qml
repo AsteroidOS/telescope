@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 Rectangle {
     id: infoBar
@@ -49,14 +49,14 @@ Rectangle {
     SequentialAnimation {
         id: animaDestroy
 
-        UbuntuNumberAnimation {
+        LomiriNumberAnimation {
             target: infoBar.anchors
             property: "bottomMargin"
             to: -infoBar.height
             duration: 500; easing.type: Easing.InOutCirc
         }
 
-        UbuntuNumberAnimation {
+        LomiriNumberAnimation {
             target: infoBar
             property: "opacity"
             to: 0
@@ -66,10 +66,10 @@ Rectangle {
 
 
     Behavior on opacity {
-        UbuntuNumberAnimation { duration: 500; easing.type: Easing.InOutCirc }
+        LomiriNumberAnimation { duration: 500; easing.type: Easing.InOutCirc }
     }
 
     Behavior on anchors.bottomMargin {
-        UbuntuNumberAnimation { duration: 500; easing.type: Easing.InOutCirc }
+        LomiriNumberAnimation { duration: 500; easing.type: Easing.InOutCirc }
     }
 }

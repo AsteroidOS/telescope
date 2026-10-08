@@ -1,4 +1,4 @@
-clickable_minimum_required: 7.1.2
+clickable_minimum_required: 8.0.0
 builder: qmake
 kill: telescope
 build_args: CONFIG+=telescope
