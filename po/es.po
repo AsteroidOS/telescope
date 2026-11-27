@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-16 15:39+0000\n"
+"POT-Creation-Date: 2026-11-27 12:24+0100\n"
 "PO-Revision-Date: 2025-06-02 12:01+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/asteroidos/"
@@ -19,98 +19,140 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12-dev\n"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
+#: app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
 msgstr "Ninguno"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
+#: app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
 msgstr "Normal"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
+#: app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
 msgstr "Fuerte"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
+#: app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
 msgstr "Vibrar en notificación"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
+#: app/qml/pages/ExportPage.qml:18
+msgid "Share with"
+msgstr ""
+
+#: app/qml/pages/ExportPage.qml:18
+msgid "Save with"
+msgstr ""
+
+#: app/qml/pages/InfoPage.qml:10 app/qml/pages/MainMenuPage.qml:20
+#: app/qml/pages/WatchesPage.qml:17
 msgid "Info"
 msgstr "Acerca de"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
+#: app/qml/pages/InfoPage.qml:15 app/qml/pages/ScreenshotPage.qml:24
+msgid "Back"
+msgstr ""
+
+#: app/qml/pages/InfoPage.qml:51 app/qml/pages/WatchesPage.qml:11
 msgid "Telescope"
 msgstr "Telescope"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
+#: app/qml/pages/InfoPage.qml:58
 msgid "Version "
 msgstr "Versión "
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
-msgid "This application let you synchronize with AsteroidOS smartwatches"
-msgstr "Esta aplicación permite sincronizar con relojes inteligentes AsteroidOS"
+#: app/qml/pages/InfoPage.qml:65
+#, fuzzy
+#| msgid "This application let you synchronize with AsteroidOS smartwatches"
+msgid "This app lets you sync with AsteroidOS smartwatches"
+msgstr ""
+"Esta aplicación permite sincronizar con relojes inteligentes AsteroidOS"
 
-#. TRANSLATORS: Please make sure the URLs are correct
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
+#: app/qml/pages/InfoPage.qml:74
+#, fuzzy
+#| msgid ""
+#| "Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
+#| "telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgid ""
-"Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
-"telescope/blob/master/LICENSE\">GNU GPL v3</a>"
+"Copylefted libre software, licensed <a href=\"https://github.com/AsteroidOS/"
+"telescope/blob/master/LICENSE\">GPLv3+</a>"
 msgstr ""
 "Disponible en virtud de los términos de la <a href=\"https://github.com/"
 "AsteroidOS/telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
+#: app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
 msgstr "Selector de ubicación"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
+#: app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
 msgstr "Opciones"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:27
+#: app/qml/pages/MainMenuPage.qml:27
 msgid "Restart Service"
 msgstr "Reiniciar servicio"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
+#: app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
 msgstr "conectado"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
+#: app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
 msgstr "desconectado"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:77
+#: app/qml/pages/MainMenuPage.qml:77
 msgid "unkown"
 msgstr "desconocido"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:102
-msgid "Synchronize time"
-msgstr "Sincronizar hora"
+#: app/qml/pages/MainMenuPage.qml:103
+msgid "Sync device clock"
+msgstr ""
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:134
+#: app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
 msgstr "Buscador de reloj"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:134
+#: app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
 msgstr "¡El teléfono le está buscando!"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:137
+#: app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
 msgstr "Buscar el reloj"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
-msgid ""
-"No smartwatches configured yet. Please connect your smartwatch using System "
-"Settings."
+#: app/qml/pages/MainMenuPage.qml:158
+msgid "Take a screenshot"
 msgstr ""
-"No hay relojes configurados. Conecte el reloj usando la configuración del "
-"sistema."
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
+#: app/qml/pages/ScreenshotPage.qml:19
+msgid "Screenshot"
+msgstr ""
+
+#: app/qml/pages/ScreenshotPage.qml:34
+msgid "Save"
+msgstr ""
+
+#: app/qml/pages/ScreenshotPage.qml:46
+msgid "Share"
+msgstr ""
+
+#: app/qml/pages/ScreenshotPage.qml:94
+msgid "File saved under "
+msgstr ""
+
+#: app/qml/pages/WatchesPage.qml:87
+msgid "Connect a smartwatch using the system settings first."
+msgstr ""
+
+#: app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
 msgstr "Configuración del tiempo"
+
+#~ msgid "Synchronize time"
+#~ msgstr "Sincronizar hora"
+
+#~ msgid ""
+#~ "No smartwatches configured yet. Please connect your smartwatch using "
+#~ "System Settings."
+#~ msgstr ""
+#~ "No hay relojes configurados. Conecte el reloj usando la configuración del "
+#~ "sistema."

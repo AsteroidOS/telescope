@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-28 19:54+0000\n"
+"POT-Creation-Date: 2026-11-27 12:24+0100\n"
 "PO-Revision-Date: 2022-10-10 17:59+0000\n"
 "Last-Translator: Florin Voicu <florin.bkk@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/asteroidos/"
@@ -20,126 +20,139 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 4.14.1\n"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:14
+#: app/qml/components/NotificationServiceItem.qml:14
 msgid "None"
 msgstr "Nimic"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:15
+#: app/qml/components/NotificationServiceItem.qml:15
 msgid "Normal"
 msgstr "Normal"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:16
+#: app/qml/components/NotificationServiceItem.qml:16
 msgid "Strong"
 msgstr "Puternic"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/components/NotificationServiceItem.qml:26
+#: app/qml/components/NotificationServiceItem.qml:26
 msgid "Vibration on notification"
 msgstr "Vibrare la notificare"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
+#: app/qml/pages/ExportPage.qml:18
 msgid "Share with"
 msgstr "Trimite la"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ExportPage.qml:18
+#: app/qml/pages/ExportPage.qml:18
 msgid "Save with"
 msgstr "Salvează cu"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:10
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:20
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:17
+#: app/qml/pages/InfoPage.qml:10 app/qml/pages/MainMenuPage.qml:20
+#: app/qml/pages/WatchesPage.qml:17
 msgid "Info"
 msgstr "Informație"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:51
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:11
+#: app/qml/pages/InfoPage.qml:15 app/qml/pages/ScreenshotPage.qml:24
+msgid "Back"
+msgstr ""
+
+#: app/qml/pages/InfoPage.qml:51 app/qml/pages/WatchesPage.qml:11
 msgid "Telescope"
 msgstr "Telescope"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:58
+#: app/qml/pages/InfoPage.qml:58
 msgid "Version "
 msgstr "Versiune "
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:65
-msgid "This application let you synchronize with AsteroidOS smartwatches"
+#: app/qml/pages/InfoPage.qml:65
+#, fuzzy
+#| msgid "This application let you synchronize with AsteroidOS smartwatches"
+msgid "This app lets you sync with AsteroidOS smartwatches"
 msgstr "Aceasă aplicație îți permite să îți sincronizezi ceasul AsteroidOS"
 
-#. TRANSLATORS: Please make sure the URLs are correct
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/InfoPage.qml:74
+#: app/qml/pages/InfoPage.qml:74
+#, fuzzy
+#| msgid ""
+#| "Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
+#| "telescope/blob/master/LICENSE\">GNU GPL v3</a>"
 msgid ""
-"Released under the terms of the <a href=\"https://github.com/AsteroidOS/"
-"telescope/blob/master/LICENSE\">GNU GPL v3</a>"
+"Copylefted libre software, licensed <a href=\"https://github.com/AsteroidOS/"
+"telescope/blob/master/LICENSE\">GPLv3+</a>"
 msgstr ""
 "Lansată sub termenii <a href=\"https://github.com/AsteroidOS/telescope/blob/"
 "master/LICENSE\">GNU GPL v3</a>"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/LocationPicker.qml:10
+#: app/qml/pages/LocationPicker.qml:10
 msgid "LocationPicker"
 msgstr "Alegător de locație"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:14
+#: app/qml/pages/MainMenuPage.qml:14
 msgid "Menu"
 msgstr "Meniu"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:27
+#: app/qml/pages/MainMenuPage.qml:27
 msgid "Restart Service"
 msgstr "Repornește Serviciul"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
+#: app/qml/pages/MainMenuPage.qml:60
 msgid "connected"
 msgstr "conectat"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:60
+#: app/qml/pages/MainMenuPage.qml:60
 msgid "disconnected"
 msgstr "deconectat"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:77
+#: app/qml/pages/MainMenuPage.qml:77
 msgid "unkown"
 msgstr "necunoscut"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:103
-msgid "Synchronize time"
-msgstr "Sincronizează timpul"
+#: app/qml/pages/MainMenuPage.qml:103
+msgid "Sync device clock"
+msgstr ""
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
+#: app/qml/pages/MainMenuPage.qml:136
 msgid "Watch-Finder"
 msgstr "Găsește Ceasul"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:136
+#: app/qml/pages/MainMenuPage.qml:136
 msgid "The phone is looking for you!"
 msgstr "Telefonul se uită după tine!"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:139
+#: app/qml/pages/MainMenuPage.qml:139
 msgid "Find my watch"
 msgstr "Găsește-mi ceasul"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/MainMenuPage.qml:160
+#: app/qml/pages/MainMenuPage.qml:158
 msgid "Take a screenshot"
 msgstr "Fă un screenshot"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:19
+#: app/qml/pages/ScreenshotPage.qml:19
 msgid "Screenshot"
 msgstr "Captură de ecran"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:34
+#: app/qml/pages/ScreenshotPage.qml:34
 msgid "Save"
 msgstr "Salvează"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:46
+#: app/qml/pages/ScreenshotPage.qml:46
 msgid "Share"
 msgstr "Trimite"
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/ScreenshotPage.qml:94
+#: app/qml/pages/ScreenshotPage.qml:94
 msgid "File saved under "
 msgstr "Fișier salvat sub "
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WatchesPage.qml:87
-msgid ""
-"No smartwatches configured yet. Please connect your smartwatch using System "
-"Settings."
+#: app/qml/pages/WatchesPage.qml:87
+msgid "Connect a smartwatch using the system settings first."
 msgstr ""
-"Nici un ceas configurat încă. Te rugam să îți conectezi ceasul în setările "
-"sistemului."
 
-#: /home/stefan/Dokumente/ubports/telescope/app/qml/pages/WeatherSettingsDialog.qml:10
+#: app/qml/pages/WeatherSettingsDialog.qml:10
 msgid "Weather Settings"
 msgstr "Setări vreme"
+
+#~ msgid "Synchronize time"
+#~ msgstr "Sincronizează timpul"
+
+#~ msgid ""
+#~ "No smartwatches configured yet. Please connect your smartwatch using "
+#~ "System Settings."
+#~ msgstr ""
+#~ "Nici un ceas configurat încă. Te rugam să îți conectezi ceasul în "
+#~ "setările sistemului."
